@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik Calculator</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<body>
+    <header>
+        <h1>Katik Calculator</h1>
+        <h4>Perimeter & Area Calculators</p>
+    </header>
+    <section class="calculator">
+        <nav>
+            <div class="menu-2">
+                <div class="select-2">
+                    <label for="standard-select">What will you calculate?</label>
+                    <div class="select">
+                        <select id="standard-select" onchange="showSelectedOption()">
+                            <option value="Triangle-Perimeter">Triangle-Perimeter</option>
+                            <option value="Triangle-Area">Triangle-Area</option>
+                            <option value="Parallelogram-Perimeter">Parallelogram-Perimeter</option>
+                            <option value="Parallelogram-Area">Parallelogram-Area</option>
+                        </select>
+                    <span class="focus"></span>
+                    </div>
+                </div>    
+            </div>
+        </nav>
+        <section id="output">
+            
+        </section>
+    </section>
+    
+    <footer></footer>
+    
+</body>
+<script src="js\index.js"></script>
+</html>
